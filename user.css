@@ -1519,13 +1519,13 @@ option {
 }
 
 .slider-dot {
-  width: 3px;
-  height: 3px;
+  width: 7px;
+  height: 7px;
   background-color: var(--spice-accent);
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: scale(1) translate(-50%, -50%);
   border: 5px solid var(--spice-accent);
   border-radius: 50%;
   transition: border-width 75ms ease;
